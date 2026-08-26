@@ -1,0 +1,24 @@
+# Data files - too large for GitHub
+data/
+
+# Environment variables - contains passwords
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# Exports - can be regenerated from SQL
+exports/
+
+# Trained model files - can be regenerated
+api/model.pkl
+api/county_encoder.pkl
+api/county_list.pkl
