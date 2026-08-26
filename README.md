@@ -8,7 +8,7 @@ targeting data analyst and ML engineer roles in Dublin.
 
 ## Live Dashboard
 
-[View Interactive Dashboard on Looker Studio](#) ← replace with your link
+https://datastudio.google.com/reporting/07f0908e-1a22-4887-87fc-955354058b8a
 
 ---
 
@@ -30,21 +30,18 @@ to a deployed machine learning API:
 
 ##  Project Structure
 
-ppr-ireland/
-├── scripts/
-│ ├── load_ppr.py # Data cleaning and PostgreSQL ingestion
-│ └── train_model.py # XGBoost model training and evaluation
-├── sql/
-│ ├── 01_views.sql # Analytical views separating individual
-│ │ # vs bulk institutional sales
-│ ├── 02_analysis.sql # Core analytical queries
-│ └── 03_window_functions.sql # LAG, RANK, rolling averages
-├── api/
-│ └── main.py # FastAPI app with /health /counties /predict
-├── Dockerfile # Container definition
-├── requirements.txt # Python dependencies
-└── README.md
+Project Structure
 
+| File/Folder | Description |
+|---|---|
+| `scripts/load_ppr.py` | Data cleaning and PostgreSQL ingestion |
+| `scripts/train_model.py` | XGBoost model training and evaluation |
+| `sql/01_views.sql` | Analytical views — individual vs bulk sales |
+| `sql/02_analysis.sql` | Core analytical queries |
+| `sql/03_window_functions.sql` | LAG, RANK, rolling averages |
+| `api/main.py` | FastAPI app with /health /counties /predict |
+| `Dockerfile` | Container definition |
+| `requirements.txt` | Python dependencies |
 
 ---
 
@@ -72,7 +69,7 @@ ppr-ireland/
 
 ---
 
-## 🔍 Key SQL Highlights
+## Key SQL Highlights
 
 **Window function — year on year price growth by county:**
 ```sql
@@ -96,7 +93,7 @@ ORDER BY county, sale_year;
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
 - **Dublin median price** grew from €270,000 in 2010 to €477,000 
   in 2026 — a 76% increase
@@ -207,5 +204,4 @@ January 2010 — present
 
 Bruno Principi  
 MSc Artificial Intelligence — University of Limerick  
-Industry co-supervision: Viotas Ireland  
-[LinkedIn](#) ← add your LinkedIn URL
+Industry co-supervision: Viotas Ireland 
