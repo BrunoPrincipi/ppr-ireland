@@ -8,7 +8,23 @@ targeting data analyst and ML engineer roles in Dublin.
 
 ## Live Dashboard
 
+[View Interactive Dashboard on Looker Studio]
 https://datastudio.google.com/reporting/07f0908e-1a22-4887-87fc-955354058b8a
+
+
+### Dashboard Screenshots
+
+**Market Overview**
+![Market Overview](screenshots/Screenshot%201.png)
+
+**County Analysis**
+![County Analysis](screenshots/Screenshot%202.png)
+
+**Price Trends**
+![Price Trends](screenshots/Screenshot%203.png)
+
+**New vs Second Hand**
+![New vs Second Hand](screenshots/Screenshot%204.png)
 
 ---
 
